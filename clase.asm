@@ -6,7 +6,7 @@ extern system
 section .data
   input_message_msg db 'Ingrese un valor: ', 0
   intput_format_msg db '%d', 0
-  entrada_invalida_msg db 27, '[31m', 'La entrada es invalida', 27, '[0m', 10, 0
+  entrada_invalida_msg db 27, '[31m', 'La entrada es incorrecta', 27, '[0m', 10, 0
 
   estudiantes_tec_msg db 27, '[32m', 'Los estudiantes del TEC son %dx mejores que los demas', 27, '[0m', 10, 0
 
